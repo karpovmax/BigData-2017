@@ -1,9 +1,3 @@
-Упростили 1-ю задачу:
-Берем данные из файла и для каждого значение antiNucleus высчитываете СРЕДНЕЕ prodTime
-Далее берете только те строки, у которых prodTime выше СРЕДНЕГО для соответствующего ему antiNucleus
-В итоге для каждого antiNucleus для отобранных значений высчитать количество уникальных eventFile и среднее значение Pt
-
-
 create docker and copy files:
 0) docker pull sequenceiq/hadoop-docker:2.7.1
 1) docker run -it sequenceiq/hadoop-docker:2.7.1 /etc/bootstrap.sh -bash
